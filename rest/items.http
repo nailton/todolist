@@ -1,0 +1,28 @@
+### send post
+POST todolist.test/api/item/store
+Content-Type: application/json
+
+{
+    "item": {
+    "name": "Take out the trash"
+    }
+}
+
+### get all items
+GET todolist.test/api/items
+Content-Type: application/json
+
+### update item
+PUT todolist.test/api/item/3
+Content-Type: application/json
+
+{
+    "item": {
+    "completed": true
+    }
+}
+
+
+### delete item
+DELETE todolist.test/api/item/2
+Content-Type: application/json
